@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="400" id="main" >
+		<!-- <rect id="back" x="0" y="0" width="600" height="400" fill="blue" fill-opacity="0" /> -->
+		<!--  -->
+	
+	<rect id="back" x="0" y="0" width="600" height="400" fill="white">
+	</rect>
+	<switch>
+		<foreignObject x="0" y="0" width="600" height="400" >
+			<p xmlns="http://www.w3.org/1999/xhtml">Text goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes hereText goes here, Text goes here, Text goes here, Text goes here</p>
+		</foreignObject>
+	</switch>
+
+	<defs>
+		<mask id="opacity" >
+			<rect x="0" y="0" width="600" height="400" fill="white"></rect>
+		</mask> 
+	</defs>
+
+	<rect id="front" x="0" y="0" width="600" height="400" fill="blue"  fill-opacity="0.5" mask="url(#opacity)" onclick="click(evt)"></rect> 
+	<script type="text/javascript" xlink:href="index.js">
+	</script>
+</svg>
